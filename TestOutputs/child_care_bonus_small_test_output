@@ -1,0 +1,14 @@
+Initializing Synchronizer with path_exp path { (CaregiverArrive  ; CaregiverLeave ) + ( ChildArrive ; ChildLeave ) } end path {ModifyGiver + ModifyChild} end
+Creating 1 Caregiver threads and 4 Children threads
+Caregiver threads and Children threads scheduled!
+CaregiverArrive Thread 0 Entry 1.000266300 Start 1.000281600 End 2.000369803
+ChildArrive Thread 0 Entry 2.000279551 Start 2.000292732 End 3.000374430
+ChildArrive Thread 1 Entry 3.000298479 Start 3.000304990 End 4.000438715
+ChildArrive Thread 2 Entry 5.000160661 Start 5.000165192 End 6.000269847
+ChildLeave Thread 0 Entry 8.000202247 Start 8.000205042 End 9.000333092
+ChildArrive Thread 3 Entry 6.000231098 Start 8.000209884 End 9.000322349
+ChildLeave Thread 1 Entry 9.000322342 Start 9.000352057 End 10.000466644
+ChildLeave Thread 2 Entry 10.000303903 Start 10.000310871 End 11.000378306
+CaregiverLeave Thread 0 Entry 10.000270971 Start 15.000269385 End 16.000367955
+ChildLeave Thread 3 Entry 15.000259656 Start 15.000263598 End 16.000368006
+Caregiver Threads and Children threads completed!
